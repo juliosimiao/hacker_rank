@@ -1,0 +1,8 @@
+/* Revising the Select Query I */
+select * from city where population > "100000";
+
+/*Revising the select Query II */
+select name from city where population > 120000 and countrycode = "USA";
+
+/*Select All */
+select * from city;
